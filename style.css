@@ -1,0 +1,58 @@
+.header-buttons {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-size: 35px;
+  margin: 0 10px;
+  color: rgb(66, 185, 206);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  background: rgb(179, 238, 234);
+}
+
+header {
+  position: fixed;
+  height: 50px;
+  width: inherit;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+
+#gameSide {
+}
+
+#gameTitle {
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 32px
+  
+}
+
+#settingTitle {
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.board {
+  width: 320px;
+  height: 320px;
+  background: rgb(230, 230, 192);
+}
+
+.cell {
+  color: rgb(22, 57, 88);
+  background: rgb(66, 185, 206) !important;
+  transition: all 0.3s cubic-bezier(0.5, 1, 0.89, 1);
+}
